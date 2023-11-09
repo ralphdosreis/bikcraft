@@ -1,94 +1,50 @@
-body {
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header-bg {
-  background-color: #000000;
-}
+@import "/css/global/global.css";
+@import "/css/utilidades/tipografia.css";
+@import "/css/utilidades/cores.css";
+@import "/css/utilidades/animacao.css";
 
 
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+@import "/css/global/header.css";
+@import "/css/global/footer.css";
 
-.header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
+/* Home */
+@import "/css/home/introducao.css";
+@import "/css/home/tecnologia.css";
+@import "/css/home/parceiros.css";
+@import "/css/home/depoimento.css";
 
-.header-menu a {
-  color: #fff;
-  display: inline-block;
-  padding: 16px 0px;
-  font-size: 18px;
-  position: relative;
-}
+/* Contato */
+@import "../css/contato/contato.css";
+@import "../css/contato/lojas.css";
 
-.header-menu a:after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0%;
-  background: #fff;
-  margin-top: 4px;
-  transition: 0.3s;
-  position: absolute;
-}
-
-.header-menu a:hover:after {
-  width: 100%;
-}
+/* Orçamento */
+@import "../css/orcamento/orcamento.css";
 
 
-@media (max-width: 800px) {
-  .header-menu {
-    gap: 20px;
-  }
-
-  .header-menu a {
-    background: #111;
-    padding: 12px 16px;
-    border-radius: 4px;
-  }
-
-  .header-menu a:hover {
-    background-color: #2E2E2E;
-  }
-
-  .header a:after {
-    display: none;
-  }
-}
+/* Termos */
+@import "/css/termos/termos.css";
 
 
-@media (max-width: 600px) {
-  .header-menu {
-    gap: 12px;
-  }
-  
-  .header-menu a {
-    padding: 8px 12px;
-    font-size: 14px;
-  }
-}
+/* Bicicletas */
+@import "/css/bicicletas/bicicletas-lista.css";
+@import "/css/bicicletas/bicicletas.css";
+
+/* Bicicleta */
+@import "../css/bicicleta/bicicleta.css";
+@import "../css/bicicleta/seguro.css";
+
+
+/* Seguros */
+@import "/css/seguros/seguros.css";
+@import "/css/seguros/vantagens.css";
+@import "/css/seguros/perguntas.css";
+
+/* Utilidades */
+@import "/css/utilidades/componentes.css";
+@import "/css/utilidades/formulario.css";
+
+
+
+
+
+
