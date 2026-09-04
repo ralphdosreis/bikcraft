@@ -58,4 +58,4 @@ Os formulários presentes no projeto são demonstrações de interface. No estad
 
 ## Licença
 
-Este projeto não possui uma licença definida. Consulte o responsável pelo repositório antes de reutilizar o código ou os assets.
+Este projeto foi desenvolvido exclusivamente para fins de estudo e aprendizado, durante o curso de HTML e CSS da Origamid.
